@@ -27,6 +27,7 @@ const commentSchema = mongoose.Schema({
     },
     isReply: {
         type: Boolean,
+        
     },
     parent: {
         type: Schema.Types.ObjectId,
